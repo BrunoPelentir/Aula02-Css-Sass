@@ -1,0 +1,43 @@
+*{
+    margin: 0
+}
+
+$font-stack: Helvetica, sans-serif;
+$primary-color: rgb(252, 252, 249);
+$secondary-color: rgb(57, 99, 175);
+$cor-navegacao: rgb(184, 6, 6);
+$altura-navegacao: 10vh;
+$altura-iframe: 88vh;
+
+
+body{
+    font: 20px $font-stack;
+    color: $primary-color;
+    background-color: $secondary-color;
+    margin-top: 10px;
+}
+nav{
+    background-color: $cor-navegacao;
+    height: $altura-navegacao;
+}
+iframe{
+ 
+    width: 99vw;
+    height: $altura-iframe;
+    border: 0
+}
+header{
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+    img{
+        margin-left: 10px;
+        width: 100px;
+    }
+    label{
+        margin-right: 10px;
+    }
+}
